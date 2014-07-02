@@ -1,12 +1,15 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class CnController extends Controller {
+class ZhController extends Controller {
 
-    const vpath = './Application/Home/View/';
+    const LANG_FILE = './Application/Home/Lang/zh-cn.php';
+
+    public function _initialize(){
+        L(include self::LANG_FILE);
+    }
 
     public function index(){
-        // L('./Application/Home/Lang/zh-cn.php');
         $this->good = '很好，good';
         $this->assign('good1',$good);
         $this->display();

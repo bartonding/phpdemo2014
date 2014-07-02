@@ -20,6 +20,9 @@ define('APP_DEBUG',True);
 // 定义应用目录
 define('APP_PATH','./Application/');
 
+// 定义运行时目录
+define('RUNTIME_PATH','./Runtime/');
+
 // 如果你的环境足够安全，不希望生成目录安全文件，可以在入口文件里面关闭目录安全
 // 文件的生成
 define('BUILD_DIR_SECURE', false);

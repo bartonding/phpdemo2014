@@ -3,9 +3,15 @@ namespace Home\Controller;
 use Think\Controller;
 class EnController extends Controller {
 
-    const vpath = './Application/Home/View/';
+    const LANG_FILE = './Application/Home/Lang/en-us.php';
+
+    public function _initialize(){
+        L(include self::LANG_FILE);
+    }
 
     public function index(){
-        $this->display(self::vpath.'index.html');
+        $this->good = '很好，good';
+        $this->assign('good1',$good);
+        $this->display();
     }
 }
