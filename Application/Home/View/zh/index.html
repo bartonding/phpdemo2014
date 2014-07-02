@@ -2,16 +2,24 @@
 <html lang="zh-cn">
 <head>
 <include file="global:meta" />
-<title>Bootstrap 101 Template</title>
+<title>index</title>
 
 <include file="global:css" />
+<import type="css" href="styles/pages/index" />
 
 </head>
-<body>
+<body class="p-index">
+
+<div class="screen-full"></div>
+<include file="global:nav" page="navbar-in-index" />
+
 <h1>Hello,{$good}！{$good1}</h1>
 <hr/>
 <p>-{$Think.lang.mytest}-</p>
 
+<div style="height:100%;"></div>
+
+<include file="global:footer" />
 
 <include file="global:js" />
 </body>
