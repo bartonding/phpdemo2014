@@ -10,7 +10,7 @@ jQuery(function ($) {
     // global nav scroll event
     (function () {
         if (!$(document.body).hasClass('p-index')) return;
-        var t1, st, wh = $(window).height(),
+        var t1, t2, st, wh = $(window).height(),
             gn = $('#globalNav');
             nh = gn.outerHeight();
         $(window).resize(function () {
@@ -22,26 +22,24 @@ jQuery(function ($) {
             var isFixed = gn.hasClass('navbar-fixed-top');
             st = $(window).scrollTop();
             console.log(st);
-            // navbar-in-index navbar-fixed-top
+            // navbar-in-index navbar-fixed-top navbar-mid-animate
             // not be fixed
             if (st < wh - nh) {
                 if (isFixed) {
-                    gn.removeClass('navbar-fixed-top')
-                      .addClass('navbar-in-index');
+                    gn.removeClass('navbar-fixed-top');
+                    gn.addClass('navbar-mid-animate');
+                    t2 = setTimeout(function(){
+                        gn.removeClass('navbar-mid-animate');
+                        gn.addClass('navbar-in-index');
+                    }, 500);
                 }
             }
             // be fixed
             else {
                 if (!isFixed) {
-                    gn.removeClass('navbar-in-index');
+                    clearTimeout(t2);
+                    gn.removeClass('navbar-in-index navbar-mid-animate');
                     gn.addClass('navbar-fixed-top');
-                    // gn.addClass('gn-trans-mid');
-                    // setTimeout(function () {
-                    //     gn.addClass('navbar-fixed-top');
-                    //     setTimeout(function() {
-                    //         gn.removeClass('gn-trans-mid');
-                    //     }, 100);
-                    // }, 100);
                 }
             }
         });
