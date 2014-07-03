@@ -21,7 +21,6 @@ jQuery(function ($) {
         }).scroll(function () {
             var isFixed = gn.hasClass('navbar-fixed-top');
             st = $(window).scrollTop();
-            console.log(st);
             // navbar-in-index navbar-fixed-top navbar-mid-animate
             // not be fixed
             if (st < wh - nh) {

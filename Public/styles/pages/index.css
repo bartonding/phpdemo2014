@@ -16,6 +16,7 @@
     -o-animation: fadein 1s;
     animation: fadein 1s;
 }
+
 a.baby-go{
     position: absolute;
     bottom: 20px;
@@ -33,4 +34,17 @@ a.baby-go{
 a.baby-go:hover{
     text-decoration: none;
     background-color: rgba(38,76,126,1);
+}
+.item-ys{}
+.item-ys h3{
+    margin-left: 130px;
+}
+.content-ys{}
+.content-ys img{
+    width: 75px;
+    height: 75px;
+    margin-top: -2em;
+}
+.content-ys p{
+    margin: 0 0 0 130px;
 }
