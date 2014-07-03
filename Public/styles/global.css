@@ -3,7 +3,7 @@ html,body{
 }
 body{
     font-family: "微软雅黑","黑体","Microsoft Yahei","SimHei",Arial,sans-serif;
-    /* font-size: 14px; */
+     font-size: 14px;
     line-height: 160%;
 }
 a{
@@ -14,7 +14,9 @@ a{
     transition: all 0.3s;
 }
 a:hover{}
-h1{}
+h1{
+    display: inline;
+}
 h2{}
 h3{
     font-size: 16px;
@@ -107,5 +109,5 @@ ul,ol,li{
 }
 .copyright{
     text-align: center;
-    margin-top: 60px;
+    margin: 60px 10px 0;
 }

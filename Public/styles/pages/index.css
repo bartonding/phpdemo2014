@@ -16,3 +16,21 @@
     -o-animation: fadein 1s;
     animation: fadein 1s;
 }
+a.baby-go{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    border: 1px solid #FFF;
+    text-align: center;
+    color: #FFF;
+    background-color: rgba(38,76,126,.6);
+    line-height: 2.3em;
+    width: 160px;
+    margin-left: -80px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+a.baby-go:hover{
+    text-decoration: none;
+    background-color: rgba(38,76,126,1);
+}
