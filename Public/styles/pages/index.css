@@ -35,16 +35,151 @@ a.baby-go:hover{
     text-decoration: none;
     background-color: rgba(38,76,126,1);
 }
+
+/* 再来人优势 */
 .item-ys{}
 .item-ys h3{
     margin-left: 130px;
+    font-weight: bold;
 }
 .content-ys{}
 .content-ys img{
-    width: 75px;
-    height: 75px;
+    width: 110px;
+    height: 135px;
     margin-top: -2em;
 }
 .content-ys p{
     margin: 0 0 0 130px;
+}
+
+/* 我们的再来导师 */
+.item-mentor{
+    margin: 25px 0 0;
+}
+.item-mentor img{
+}
+.item-mentor span{
+    float: left;
+    margin: 0 0 0 15px;
+    line-height: 100%;
+}
+.item-mentor .mi-1{
+    width: 86px;
+    height: 86px;
+    float: left;
+}
+.item-mentor .mi-2,
+.item-mentor .mi-3{
+    width: 50px;
+
+    height: 50px;
+    margin-top: 1.5em;
+}
+.item-mentor .mi-2{
+}
+.item-mentor .mi-3{
+    width: 50px;
+    height: 50px;
+}
+.mentor-detail{
+    border: 1px solid #dadfe1;
+    padding: 17px 5px;
+    margin-top: 25px;
+    margin-right: 0px;
+}
+.mentor-d1{}
+.mentor-d1 img{
+    width: 155px;
+    height: 162px;
+}
+.mentor-d1 p{
+    margin: 10px 0 0;
+}
+.mentor-d2{}
+.mentor-d3{
+    text-align: center;
+}
+.mentor-d3 .more-mentor{
+    margin-top: 40px;
+    padding: 6px 20px;
+}
+#carousel-mentor{}
+#carousel-mentor .carousel-indicators{
+    bottom: -30px;
+}
+#carousel-mentor .carousel-indicators li{
+    border-color: #666;
+}
+#carousel-mentor .carousel-indicators .active{
+    background-color: #666;
+}
+
+/* left carousel-control */
+#carousel-successful-case{
+    border: 1px solid #dadfe1;
+    padding: 20px 35px;
+}
+#carousel-successful-case .carousel-inner{
+}
+#carousel-successful-case .item-case{
+    /* margin: 20px 0 0 30px; */
+}
+#carousel-successful-case .s-line{
+    background-color: #dadfe1;
+    height: 1px;
+    margin: 10px 0 20px;
+}
+#carousel-successful-case .successful-more{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -50px;
+    border-radius: 0 0 4px 4px;
+}
+#carousel-successful-case img{
+    width: 127px;
+    height: 127px;
+}
+#carousel-successful-case p{
+    margin-left: 145px;
+}
+#carousel-successful-case .carousel-control{
+    background-image: none;
+    width: 0;
+}
+#carousel-successful-case .carousel-control span{
+    margin-left: -30px;
+}
+#carousel-successful-case .left{}
+#carousel-successful-case .left span{}
+#carousel-successful-case .right{}
+#carousel-successful-case .right span{
+    margin-right: -30px;
+}
+
+#iwantto{
+    text-align: center;
+    background-color: #4F5962;
+    padding: 30px 0 50px;
+    color: #FFF;
+}
+#iwantto p{
+    font-size: 28px;
+    line-height: 2em;
+    margin-bottom: 20px;
+}
+#iwantto a{
+    display: block;
+    color: #FFF;
+    border: 1px solid #FFF;
+    line-height: 2em;
+    margin: 0 auto;
+    width: 160px;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgba(79,89,98,1);
+}
+#iwantto a:hover{
+    text-decoration: none;
+    background-color: rgba(255,255,255,.3);
 }
