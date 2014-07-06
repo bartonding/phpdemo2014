@@ -1,0 +1,37 @@
+.mentors-wrap{
+    margin: 0 3%;
+}
+.mentor{
+    float: left;
+    width: 48%;
+    padding: 15px 25px;
+    border: 1px solid #dadfe1;
+    margin: 1%;
+}
+.mentor:hover{
+    background-color: rgba(218,223,225,.2);
+}
+.diagram{
+    float: left;
+    text-align: center;
+}
+.diagram p{
+}
+.diagram p span{
+}
+.diagram .mi-1{
+    width: 148px;
+    height: 148px;
+}
+.diagram .mi-2{
+    width: 60px;
+    height: 60px;
+}
+.introduce{
+    margin-left: 170px;
+}
+
+@media (max-width: 990px) {
+    .mentor{ width: 96%}
+    .introduce{float: left;margin-left: 0;}
+}

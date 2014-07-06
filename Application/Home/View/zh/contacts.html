@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<include file="global:meta" />
+<title>contacts</title>
+
+<include file="global:css" />
+<import type="css" href="styles/pages/contacts" />
+
+</head>
+<body class="">
+
+{/* 顶部导航 */}
+<include file="global:nav" page="navbar-in-other" />
+
+<div class="container contacts">
+    <h2>联系我们</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <h4>电话</h4>
+            <p><img src="__PUBLIC__/pics/yun.jpg"> xxx-xxx-xxx</p>
+        </div>
+        <div class="col-md-4">
+            <h4>邮箱</h4>
+            <p><img src="__PUBLIC__/pics/yun.jpg"> barton.ding@gmail.com</p>
+        </div>
+        <div class="col-md-4">
+            <h4>QQ</h4>
+            <p><img src="__PUBLIC__/pics/yun.jpg"> 157269230</p>
+        </div>
+    </div>
+    <div style="height:30px;"></div>
+    <div class="row">
+        <div class="col-md-4">
+            <h4>地址</h4>
+            <p><img src="__PUBLIC__/pics/yun.jpg"> 宇宙中心，五道口，xxx</p>
+        </div>
+        <div class="col-md-4">
+            <h4>社交圈</h4>
+            <p><img src="__PUBLIC__/pics/yun.jpg"> 微信，人人，微博，QQ</p>
+        </div>
+        <div class="col-md-4">
+            <h4>微信二维码</h4>
+            <p><img src="__PUBLIC__/pics/yun.jpg"></p>
+        </div>
+    </div>
+    <div style="height:30px;"></div>
+    <div class="row">
+        <div class="col-md-4">
+            <h4>办公室预约</h4>
+            <p>如需预约，请提前联系我们的客服，确保能够接待您！</p>
+        </div>
+        <div class="col-md-8">
+            <h4>来我们的办公室</h4>
+
+<div id="mapContainer" style="width:100%;height:300px;"></div>
+<script src="http://webapi.amap.com/maps?v=1.2&key=40918dcf6f1ff59d45bed10326a42861" type="text/javascript"></script>
+<script type="text/javascript">
+function initialize(){
+  var position=new AMap.LngLat(116.404,39.915);//创建中心点坐标
+  var mapObj=new AMap.Map("mapContainer",{center:position});//创建地图实例
+}
+initialize();
+</script>
+
+        </div>
+    </div>
+</div>
+
+<div style="height:60px;"></div>
+
+<div id="iwantto">
+    <p>我要实现梦想</p>
+    <a href="#">带我去找再来人</a>
+</div>
+
+<include file="global:footer" />
+
+<include file="global:js" />
+</body>
+</html>

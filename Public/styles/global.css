@@ -40,6 +40,7 @@ ul,ol,li{
 
 }
 #globalNav.navbar-mid-animate,
+.navbar-in-other,
 #globalNav.navbar-fixed-top{
     top: 0;
     border-bottom-color: #dadfe1;
@@ -90,6 +91,34 @@ ul,ol,li{
     color: #FFF;
     background-color: rgba(255,255,255,.3);
     /*background-color: rgba(139,137,137,.5);*/
+}
+
+/* 我要实现梦想 */
+#iwantto{
+    text-align: center;
+    background-color: #4F5962;
+    padding: 30px 0 50px;
+    color: #FFF;
+}
+#iwantto p{
+    font-size: 28px;
+    line-height: 2em;
+    margin-bottom: 20px;
+}
+#iwantto a{
+    display: block;
+    color: #FFF;
+    border: 1px solid #FFF;
+    line-height: 2em;
+    margin: 0 auto;
+    width: 160px;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgba(79,89,98,1);
+}
+#iwantto a:hover{
+    text-decoration: none;
+    background-color: rgba(255,255,255,.3);
 }
 
 /* footer and copyright */

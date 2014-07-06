@@ -1,0 +1,21 @@
+.news-wrap{}
+.news-wrap h3{
+    padding: 10px 0;
+    border-bottom: 1px solid #d4d4d4;
+    font-size: 20px;
+}
+.news{}
+.news ul{
+    margin: 0 0 0 1.5em;
+}
+.news li{
+    list-style: disc;
+    margin: 0 1em 10px 0;
+}
+.news a{}
+.news a:hover{}
+#specialActive{}
+#specialActive .item img{}
+#specialActive .carousel-indicators{}
+#specialActive .carousel-indicators li{}
+#specialActive .carousel-indicators li:active{}

@@ -1,0 +1,35 @@
+.teams-wrap{}
+.teams-wrap h3{
+    font-size: 20px;
+    border-bottom: 1px solid #d4d4d4;
+    padding: 10px 0;
+    margin-right: 2%;
+}
+.staff{
+    float: left;
+    width: 48%;
+    padding: 15px 25px;
+    border: 1px solid #dadfe1;
+    margin: 1% 2% 1% 0;
+}
+.staff:hover{
+    background-color: rgba(218,223,225,.2);
+}
+.diagram{
+    float: left;
+}
+.diagram p{
+    margin: 10px 0 10px 2px;
+}
+.diagram .mi-1{
+    width: 135px;
+    height: 160px;
+}
+.introduce{
+    margin-left: 170px;
+}
+
+@media (max-width: 990px) {
+    .staff{ width: 96%}
+    .introduce{float: left;margin-left: 0;}
+}

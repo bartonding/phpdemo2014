@@ -10,8 +10,30 @@ class ZhController extends Controller {
     }
 
     public function index(){
-        $this->good = '很好，good';
-        $this->assign('good1',$good);
+        $this->display();
+    }
+
+    public function mentors(){
+        $this->display();
+    }
+
+    public function contacts(){
+        $this->display();
+    }
+
+    public function news(){
+        $this->display();
+    }
+
+    public function teams(){
+        $this->display();
+    }
+
+    public function testimonials(){
+        $this->display();
+    }
+
+    public function values(){
         $this->display();
     }
 }

@@ -1,0 +1,8 @@
+.contacts{}
+.contacts h4{
+    padding: 0 0 8px;
+    border-bottom: 1px solid #d4d4d4;
+}
+.contacts img{
+    width: 50px;
+}
