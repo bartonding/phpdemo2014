@@ -51,6 +51,26 @@ a.baby-go:hover{
 .content-ys p{
     margin: 0 0 0 130px;
 }
+/* 再来人优势 1 */
+.pane-ys{
+    border: 1px solid #DDD;
+    padding: 20px 30px;
+    margin-top: -1px;
+}
+#advantage a{
+    color: #555;
+}
+.pane-ys h3{
+    margin: -8px 0 15px;
+    font-size: 30px;
+}
+.pane-ys p{}
+.pane-ys img{
+    width: 240px;
+    height: 190px;
+    max-width: 100%;
+}
+
 
 /* 我们的再来导师 */
 .item-mentor{

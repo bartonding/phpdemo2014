@@ -18,7 +18,9 @@ a:hover{}
 h1{
     display: inline;
 }
-h2{}
+h2{
+    margin-bottom: 20px;
+}
 h3{
     font-size: 16px;
 }
@@ -118,4 +120,6 @@ ul,ol,li{
 .copyright{
     text-align: center;
     margin: 60px 10px 0;
+    font-size: 12px;
+    color: #999;
 }
