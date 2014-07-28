@@ -1,5 +1,6 @@
 <?php
 return array(
+    // 'URL_CASE_INSENSITIVE'  =>  true,
     // 'TMPL_FILE_DEPR'        =>  '_',     // 模板文件名称的链接符
     'DEFAULT_MODULE'        =>  'Home',  // 默认模块
     'DEFAULT_CONTROLLER'    =>  'Zh', // 默认控制器名称
