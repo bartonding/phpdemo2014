@@ -36,4 +36,8 @@ class ZhController extends Controller {
     public function values(){
         $this->display();
     }
+
+    public function login(){
+        $this->display();
+    }
 }
